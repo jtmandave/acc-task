@@ -10,6 +10,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "user_details")
 public class UserDetails {
+	hiii......
 
 	@Id
 	@Column(name = "user_id")
