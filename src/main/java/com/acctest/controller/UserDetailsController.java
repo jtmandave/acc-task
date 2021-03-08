@@ -19,10 +19,10 @@ import com.acctest.repository.UserRepository;
 public class UserDetailsController {
 
 	@Autowired
-	UserRepository userRepository;
+	UserRepository userRepository;....sa
 	
 	
-	@GetMapping("/users")
+	@GetMapping("/users").....
 	public ResponseEntity<List<UserDetails>> getUsers() {
 		
 		List<UserDetails> userList = userRepository.findAll(Sort.by(Sort.Direction.ASC, "userName"));
